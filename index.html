@@ -33,10 +33,13 @@
     </style>
   </head>
   <body style="display: flex; width: 100vw; height: 100vh; justify-content: center; align-items: center">
-    <div id="app" style="display: flex; align-items: center; justify-content: space-around; width: 80vw; height: 60vh; border: 1px solid black;">
-      <div id="previous"></div>
-      <div id="de_para"></div>
-      <div id="current"></div>
+    <div style="display: flex; align-items: center; flex-direction: column; border: 1px solid black; width: 80vw; height: 60vh">
+      <h2>Antigo <span style="font-weight: normal">vs</span> Atual</h2>
+      <div id="app" style="display: flex; align-items: center; justify-content: space-around; width: 100%">
+        <div id="previous"></div>
+        <div id="de_para"></div>
+        <div id="current"></div>
+      </div>
     </div>
     <script type="module" src="/main.js"></script>
   </body>
